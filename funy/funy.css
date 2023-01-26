@@ -1,0 +1,36 @@
+.toast {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2px;
+    border-left: #000 3px ;
+    box-shadow:0 5px 8px #000 ;
+    width: 70%;
+    height: 60px;
+    margin-left: 27%;
+}
+.toast+.toast{
+    margin-top: 25px;
+}
+.toast__shape{
+    height: 60px;
+    width: 10px;
+    background-color: greenyellow;
+}
+.toast__icon,
+.toast__message {
+    padding-left: 15px;
+}
+
+.toast__icon{
+    font-size: 22px;
+}
+.toast__message{
+    font-size: 14px;
+}
+.toast__close{
+    position: absolute;
+    right: 10px;
+    /* margin-left: 55% */
+}
